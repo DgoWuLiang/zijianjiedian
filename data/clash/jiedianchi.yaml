@@ -9,6 +9,8 @@ proxies:
   - {"name":"dgowuliang-02_2","server":"104.24.14.51","port":443,"type":"vmess","uuid":"051acccf-fd1a-4f33-8230-3093d77335ad","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/051acccf-fd1a-4f33-8230-3093d77335ad-vmess","headers":{"host":"shrill-wave-88f2.dgowuliang.workers.dev"}}}
   - {"name":"dgowuliang-03_3","server":"104.24.57.87","port":443,"type":"vmess","uuid":"08b1548f-d63b-42aa-ac80-b9bc6ed9df58","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/08b1548f-d63b-42aa-ac80-b9bc6ed9df58-vmess","headers":{"host":"frosty-wood-b293.l7epew56c.workers.dev"}}}
   - {"name":"dgowuliang-04_4","server":"162.159.36.176","port":443,"type":"vmess","uuid":"df8ee2b8-3152-48d8-a0c5-9b039856c61b","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/df8ee2b8-3152-48d8-a0c5-9b039856c61b-vmess","headers":{"host":"withered-rain-495d.zlom3-sdh.workers.dev"}}}
+  - {"name":"dgowuliang-05_5","server":"104.25.0.26","port":443,"type":"vmess","uuid":"cb21b463-34c6-4ebd-b885-b7d445288cf9","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cb21b463-34c6-4ebd-b885-b7d445288cf9-vmess","headers":{"host":"damp-term-e002.dadasd.workers.dev"}}}
+  - {"name":"dgowuliang-06_6","server":"104.24.5.237","port":443,"type":"vmess","uuid":"8d3dbc28-3b38-4a37-967e-8a4f8ef06133","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/8d3dbc28-3b38-4a37-967e-8a4f8ef06133-vmess","headers":{"host":"raspy-pond-a07f.giew-zeks.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
