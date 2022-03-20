@@ -21,6 +21,8 @@ proxy-groups:
       - dgowuliang-02_2
       - dgowuliang-03_3
       - dgowuliang-04_4
+      - dgowuliang-05_5
+      - dgowuliang-06_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,6 +33,8 @@ proxy-groups:
       - dgowuliang-02_2
       - dgowuliang-03_3
       - dgowuliang-04_4
+      - dgowuliang-05_5
+      - dgowuliang-06_6
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -41,6 +45,8 @@ proxy-groups:
       - dgowuliang-02_2
       - dgowuliang-03_3
       - dgowuliang-04_4
+      - dgowuliang-05_5
+      - dgowuliang-06_6
   - name: 📲 电报信息
     type: select
     proxies:
@@ -50,6 +56,8 @@ proxy-groups:
       - dgowuliang-02_2
       - dgowuliang-03_3
       - dgowuliang-04_4
+      - dgowuliang-05_5
+      - dgowuliang-06_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -59,6 +67,8 @@ proxy-groups:
       - dgowuliang-02_2
       - dgowuliang-03_3
       - dgowuliang-04_4
+      - dgowuliang-05_5
+      - dgowuliang-06_6
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -68,6 +78,8 @@ proxy-groups:
       - dgowuliang-02_2
       - dgowuliang-03_3
       - dgowuliang-04_4
+      - dgowuliang-05_5
+      - dgowuliang-06_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -94,6 +106,8 @@ proxy-groups:
       - dgowuliang-02_2
       - dgowuliang-03_3
       - dgowuliang-04_4
+      - dgowuliang-05_5
+      - dgowuliang-06_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
