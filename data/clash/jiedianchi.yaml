@@ -12,6 +12,7 @@ proxies:
   - {"name":"dgowuliang-05_5","server":"104.25.0.26","port":443,"type":"vmess","uuid":"cb21b463-34c6-4ebd-b885-b7d445288cf9","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/cb21b463-34c6-4ebd-b885-b7d445288cf9-vmess","headers":{"host":"damp-term-e002.dadasd.workers.dev"}}}
   - {"name":"dgowuliang-06_6","server":"104.24.5.237","port":443,"type":"vmess","uuid":"8d3dbc28-3b38-4a37-967e-8a4f8ef06133","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/8d3dbc28-3b38-4a37-967e-8a4f8ef06133-vmess","headers":{"host":"raspy-pond-a07f.giew-zeks.workers.dev"}}}
   - {"name":"dgowuliang-07_7","server":"104.18.142.237","port":443,"type":"vmess","uuid":"e8cf036f-8add-4f09-9416-aed07d0c0b5f","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/e8cf036f-8add-4f09-9416-aed07d0c0b5f-vmess","headers":{"host":"cool-moon-4c03.9gah-3ob2.workers.dev"}}}
+  - {"name":"dgowuliang-08_8","server":"104.22.36.96","port":443,"type":"vmess","uuid":"2680ca59-4cf4-478b-9d33-c662cee90fa8","alterId":0,"cipher":"auto","tls":true,"network":"ws","ws-opts":{"path":"/2680ca59-4cf4-478b-9d33-c662cee90fa8-vmess","headers":{"host":"crimson-haze-b001.5nxkwwkgm.workers.dev"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,6 +26,7 @@ proxy-groups:
       - dgowuliang-05_5
       - dgowuliang-06_6
       - dgowuliang-07_7
+      - dgowuliang-08_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -38,6 +40,7 @@ proxy-groups:
       - dgowuliang-05_5
       - dgowuliang-06_6
       - dgowuliang-07_7
+      - dgowuliang-08_8
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,6 +54,7 @@ proxy-groups:
       - dgowuliang-05_5
       - dgowuliang-06_6
       - dgowuliang-07_7
+      - dgowuliang-08_8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -63,6 +67,7 @@ proxy-groups:
       - dgowuliang-05_5
       - dgowuliang-06_6
       - dgowuliang-07_7
+      - dgowuliang-08_8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -75,6 +80,7 @@ proxy-groups:
       - dgowuliang-05_5
       - dgowuliang-06_6
       - dgowuliang-07_7
+      - dgowuliang-08_8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -87,6 +93,7 @@ proxy-groups:
       - dgowuliang-05_5
       - dgowuliang-06_6
       - dgowuliang-07_7
+      - dgowuliang-08_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,6 +123,7 @@ proxy-groups:
       - dgowuliang-05_5
       - dgowuliang-06_6
       - dgowuliang-07_7
+      - dgowuliang-08_8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
